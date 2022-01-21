@@ -87,7 +87,7 @@ function handleCM(event) {
   event.preventDefault(); //우클릭 저장 방지
 }
 
-/*canvas events*/
+//canvas events
 if ($canvas) {
   $canvas.addEventListener('mousemove', onMouseMove);
   $canvas.addEventListener('mousedown', startPainting);
