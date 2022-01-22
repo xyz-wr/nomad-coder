@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Chat</title>
+</head>
+<body id = "chat-screen">
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>22:00</span>  
+    </div>
+    <div class="status-bar__column">
+      <span>110%</span> 
+      <i class="fas fa-battery-full"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+  </div>
+
+  <header class="alt-header">
+    <div class="alt-header__column">
+      <a href="chats.html"><i class="fas fa-angle-left fa-3x"></i></a>
+    </div>
+    <div class="alt-header__column">
+      <h1 class="alt-header__title">Pineapple</h1>
+    </div>
+    <div class="alt-header__column">
+      <span><i class="fas fa-search fa-lg"></i></span>
+      <span><i class="fas fa-grip-lines fa-lg"></i></span>
+    </div>
+  </header>
+  
+  <main class="main-screen main-chat">
+    <div class="chats__timestamp">
+      Friday, October 22, 2021
+    </div>
+    <div class="message-row">
+      <img src="https://i.pinimg.com/236x/91/43/ad/9143ad6cf920a468a0e65309df91cbee.jpg">
+      <div class="message-row__content">
+        <span class="message__author">pineapple</span>
+        <div class="message__info">
+          <span class = "message__bubble">Hi</span>
+          <span class="message__time">18:44</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="message-row message-row--own">
+      <div class="message-row__content">
+        <div class="message__info">
+          <span class = "message__bubble">Hi</span>
+          <span class="message__time">18:44</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <form class ="reply">
+    <div class="reply__column">
+      <i class="far fa-plus-square fa-lg"></i>
+    </div>
+    <div class="reply__column">
+      <input type="text" placeholder="Write a message...">
+      <i class="far fa-smile-wink fa-lg"></i>
+      <button>
+        <i class="fas fa-hashtag"></i>
+      </button>
+    </div>
+  </form>
+
+  <script src="https://kit.fontawesome.com/7f3d5f130c.js" crossorigin="anonymous"></script>
+</body>
+</html>
